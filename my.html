@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Shopping Cart</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h1 align="center">Products </h1>
+
+<!-- View Cart Box Start -->
+<!-- View Cart Box End -->
+
+
+<!-- Products List Start -->
+<ul class="products">	
+<li class="product">
+	<form method="post" action="cart_update.php">
+	<div class="product-content"><h3>Goliath</h3>
+	<div class="product-thumb"><img src="images/product-1.jpg" height="100" width="70"></div>
+	<div class="product-info">
+	Price &#8377; 200.50 
+	
+	<fieldset>
+	<label>
+		<span>Quantity</span>
+		<input type="text" size="2" maxlength="2" name="product_qty" value="1" />
+	</label>
+	
+	</fieldset>
+	<input type="hidden" name="product_code" value="PD1001" />
+	<input type="hidden" name="type" value="add" />
+	<input type="hidden" name="return_url" value="http%3A%2F%2Flocalhost%3A8080%2Fcart2%2F" />
+	<div align="center"><button type="submit" class="add_to_cart">Add</button></div>
+	</div></div>
+	</form>
+	</li>	
+	
+	<li class="product">
+	<form method="post" action="cart_update.php">
+	<div class="product-content"><h3>It started with a friend</h3>
+	<div class="product-thumb"><img src="images/product-2.jpg" height="100" width="70"></div>
+	<div class="product-info">
+	Price &#8377; 200.50 
+	
+	<fieldset>
+	<label>
+		<span>Quantity</span>
+		<input type="text" size="2" maxlength="2" name="product_qty" value="1" />
+	</label>
+	
+	</fieldset>
+	<input type="hidden" name="product_code" value="PD1001" />
+	<input type="hidden" name="type" value="add" />
+	<input type="hidden" name="return_url" value="http%3A%2F%2Flocalhost%3A8080%2Fcart2%2F" />
+	<div align="center"><button type="submit" class="add_to_cart">Add</button></div>
+	</div></div>
+	</form>
+	</li>	
+	
+	<li class="product">
+	<form method="post" action="cart_update.php">
+	<div class="product-content"><h3>Rise of kali</h3>
+	<div class="product-thumb"><img src="images/product-3.jpg" height="100" width="70"></div>
+	<div class="product-info">
+	Price &#8377; 200.50 
+	
+	<fieldset>
+	<label>
+		<span>Quantity</span>
+		<input type="text" size="2" maxlength="2" name="product_qty" value="1" />
+	</label>
+	
+	</fieldset>
+	<input type="hidden" name="product_code" value="PD1001" />
+	<input type="hidden" name="type" value="add" />
+	<input type="hidden" name="return_url" value="http%3A%2F%2Flocalhost%3A8080%2Fcart2%2F" />
+	<div align="center"><button type="submit" class="add_to_cart">Add</button></div>
+	</div></div>
+	</form>
+	</li>	
+	
+	<li class="product">
+	<form method="post" action="cart_update.php">
+	<div class="product-content"><h3>Mrs.Funny Bones</h3>
+	<div class="product-thumb"><img src="images/product-4.jpg" height="100" width="70"></div>
+	<div class="product-info">
+	Price &#8377; 200.50 
+	
+	<fieldset>
+	<label>
+		<span>Quantity</span>
+		<input type="text" size="2" maxlength="2" name="product_qty" value="1" />
+	</label>
+	
+	</fieldset>
+	<input type="hidden" name="product_code" value="PD1001" />
+	<input type="hidden" name="type" value="add" />
+	<input type="hidden" name="return_url" value="http%3A%2F%2Flocalhost%3A8080%2Fcart2%2F" />
+	<div align="center"><button type="submit" class="add_to_cart">Add</button></div>
+	</div></div>
+	</form>
+	</li>
+	</ul>    
+<!-- Products List End -->
+</body>
+</html>
